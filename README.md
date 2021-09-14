@@ -37,6 +37,7 @@ nix-shell
 Start a development server with:
 
 ```
+stack install yesod-bin --install-ghc
 stack exec -- yesod devel
 ```
 
@@ -84,4 +85,3 @@ nix:
   enable: true
   packages: [ postgresql, zlib.dev, zlib.out ]
 ```
-
